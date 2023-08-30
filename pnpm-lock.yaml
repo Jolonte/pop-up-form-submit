@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  pop-up-submit:
+    specifier: ^1.0.1
+    version: 1.0.1
+
 devDependencies:
   vite:
     specifier: ^4.4.5
@@ -256,6 +261,10 @@ packages:
   /picocolors@1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
     dev: true
+
+  /pop-up-submit@1.0.1:
+    resolution: {integrity: sha512-jIGQqHEt02/HjZKmWGI4uWCiXvHmfCuVDGzQJ/2McsXdK9WZ63U9Bfb8uEmMAa4mVRvzgs/rH0t8nHegxnuVpA==}
+    dev: false
 
   /postcss@8.4.29:
     resolution: {integrity: sha512-cbI+jaqIeu/VGqXEarWkRCCffhjgXc0qjBtXpqJhTBohMUjUQnbBr0xqX3vEKudc4iviTewcJo5ajcec5+wdJw==}
