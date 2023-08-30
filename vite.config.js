@@ -7,4 +7,10 @@ export default defineConfig({
   preview: {
     open: true,
   },
+  build: {
+    lib: {
+      entry: "main.js",
+      formats: ["es"],
+    },
+  },
 });

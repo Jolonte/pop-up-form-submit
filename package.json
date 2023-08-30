@@ -1,7 +1,14 @@
 {
   "name": "pop-up-submit",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "main": "dist/pop-up-submit.js",
+  "exports": {
+    ".": "./dist/pop-up-submit.js"
+  },
+  "files": [
+    "dist"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",
