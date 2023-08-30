@@ -12,6 +12,7 @@ class PopUp extends HTMLElement {
       /* -------------------------------------------------------------- */
   
         .popUp-container {
+          z-index: 10000;
           position: fixed;
           inset: 0px;
           display: flex;
