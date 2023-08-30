@@ -1,7 +1,7 @@
 {
   "name": "pop-up-submit",
   "private": false,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/pop-up-submit.js",
   "exports": {
     ".": "./dist/pop-up-submit.js"
