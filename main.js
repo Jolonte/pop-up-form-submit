@@ -185,15 +185,12 @@ class PopUp extends HTMLElement {
     const inputSubject = document.createElement("input");
     inputSubject.setAttribute("type", "hidden");
     inputSubject.setAttribute("name", "_subject");
-    inputSubject.setAttribute("value", "Pop Up: Novo Lead em Contato");
+    inputSubject.setAttribute("value", `${this.getAttribute("subject-title")}`);
 
     const inputResponse = document.createElement("input");
     inputResponse.setAttribute("type", "hidden");
     inputResponse.setAttribute("name", "_autoresponse");
-    inputResponse.setAttribute(
-      "value",
-      "Sua mensagem foi recebida com sucesso. Agradecemos por entrar em contato a MTP. Nossa equipe está trabalhando em sua solicitação e retornaremos em breve. Se você não esperava receber essa menssagem, por favor ignore."
-    );
+    inputResponse.setAttribute("value", `${this.getAttribute("auto-response")}`);
 
     form.appendChild(inputTemplate);
     form.appendChild(inputText);
