@@ -1,7 +1,7 @@
 {
   "name": "pop-up-submit",
   "private": false,
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A web-component pop-up using FormSubmit to sends emails indicating new leads.",
   "keywords": ["pop-up", "popup", "formsubmit", "webcomponent", "web-component", "lead"],
   "homepage": "https://github.com/Jolonte/pop-up-form-submit",
