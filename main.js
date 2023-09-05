@@ -204,7 +204,7 @@ class PopUp extends HTMLElement {
 
     const sendMessage = document.createElement("input");
     sendMessage.setAttribute("type", "submit");
-    sendMessage.setAttribute("value", "Quero conhecer");
+    sendMessage.setAttribute("value", `${this.getAttribute("btn-message")}`);
     form.appendChild(sendMessage);
 
     this.shadowRoot.appendChild(popUpContainer);
